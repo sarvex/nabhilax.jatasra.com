@@ -1,5 +1,5 @@
 {
   "extends": [
-    "github>sarvex/python",
+    "github>sarvex:renovate/python",
   ]
 }
