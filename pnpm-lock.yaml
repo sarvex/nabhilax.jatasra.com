@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@builder.io/qwik':
-    specifier: 1.2.2
-    version: 1.2.2(undici@5.22.1)
+    specifier: 1.2.4
+    version: 1.2.4(undici@5.22.1)
   '@builder.io/qwik-city':
     specifier: 1.2.4
     version: 1.2.4
@@ -15,8 +15,8 @@ dependencies:
     specifier: 0.13.0
     version: 0.13.0
   '@fontsource/inter':
-    specifier: 5.0.3
-    version: 5.0.3
+    specifier: 5.0.4
+    version: 5.0.4
   '@tailwindcss/typography':
     specifier: 0.5.9
     version: 0.5.9(tailwindcss@3.3.2)
@@ -37,7 +37,7 @@ dependencies:
     version: 5.61.0(eslint@8.44.0)(typescript@5.1.6)
   '@unpic/qwik':
     specifier: 0.0.20
-    version: 0.0.20(@builder.io/qwik@1.2.2)
+    version: 0.0.20(@builder.io/qwik@1.2.4)
   autoprefixer:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.24)
@@ -134,13 +134,14 @@ packages:
       - supports-color
     dev: false
 
-  /@builder.io/qwik@1.2.2(undici@5.22.1):
-    resolution: {integrity: sha512-zPLXa7CFiNJvk2kCNlQO+Z15pgNXERGUUCVGTx9J/2S+GQ3sVynZEi9FgHFz0gowlY69yvAUWADNIWMCOISTfg==}
+  /@builder.io/qwik@1.2.4(undici@5.22.1):
+    resolution: {integrity: sha512-8nCSI23v3pxR8sMvoM/fw0wBSaxpITRwEyt7XTHRt+xoRwdQnfap8td66j+D7EDFDBynO88afKkmLZhMzDmW5A==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
       undici: ^5.14.0
     dependencies:
+      csstype: 3.1.2
       undici: 5.22.1
     dev: false
 
@@ -422,8 +423,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: false
 
-  /@fontsource/inter@5.0.3:
-    resolution: {integrity: sha512-JJvh5xht71F6e0E5r2+Ffu8g+CYAxMvnGJm9ZMg5IIjy8UwxLp+8C99TgPJupdEyBpEJv0wuMG2Rd183z/bV8g==}
+  /@fontsource/inter@5.0.4:
+    resolution: {integrity: sha512-rUiTktdsh6B45XRZYTsZb2y4+TVkiVJhkqCSnSXfWxdUl0Rp6Cheu27IcurdjSfxJPUD+nl18wYp5RFf5P5zlA==}
     dev: false
 
   /@gustavnikolaj/async-main-wrap@3.0.1:
@@ -976,13 +977,13 @@ packages:
       eslint-visitor-keys: 3.4.1
     dev: false
 
-  /@unpic/qwik@0.0.20(@builder.io/qwik@1.2.2):
+  /@unpic/qwik@0.0.20(@builder.io/qwik@1.2.4):
     resolution: {integrity: sha512-iDQCwKtM0rmb/0+1/2JDYjQHBoeaMBo0fhtlVF4+usLe8EEQMCvx/ZZj6xxCaKs3clgcfyJq1OoDT/o9p98qTQ==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.2.2(undici@5.22.1)
+      '@builder.io/qwik': 1.2.4(undici@5.22.1)
     dev: false
 
   /abab@2.0.6:
@@ -1816,6 +1817,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       cssom: 0.3.8
+    dev: false
+
+  /csstype@3.1.2:
+    resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: false
 
   /data-uri-to-buffer@4.0.1:
